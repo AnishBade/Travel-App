@@ -5,4 +5,3 @@ urlpatterns = [
     path('add',views.add,name='add')
 ]   
 
-Anish New
