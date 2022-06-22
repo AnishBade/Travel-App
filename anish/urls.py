@@ -20,6 +20,6 @@ urlpatterns = [
     
     path('calc/',include('calculator_app.urls')),
     path('admin/', admin.site.urls),
-    path('',include('travello_app.urls'))
+    path('',include('travello.urls'))
 ]
 
